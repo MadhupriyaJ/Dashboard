@@ -32,36 +32,11 @@ const Layout = ({ children }) => {
   return (
     <div className="min-h-screen flex">
       {/* Sidebar */}
-      {/* <aside className="bg-gray-800  w-64 p-6">
-                <div className="text-white text-2xl font-bold mb-4">Brand Logo</div>
-                <nav>
-                    <ul className="space-y-4">
-                        <li>
-                            <a href="/" className="text-gray-400 hover:text-white">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="/" className="text-gray-400 hover:text-white">Orders</a>
-                        </li>
-                        <li>
-                            <a href="/" className="text-gray-400 hover:text-white">Products</a>
-                        </li>
-                        <li>
-                            <a href="/#" className="text-gray-400 hover:text-white">Customers</a>
-                        </li>
-                        <li>
-                            <a href="/#" className="text-gray-400 hover:text-white">Reports</a>
-                        </li>
-                        <li>
-                            <a href="/#" className="text-gray-400 hover:text-white">Settings</a>
-                        </li>
-                    </ul>
-                </nav>
-            </aside> */}
-
+      
       <aside className="bg-madhu relative">
         <div
           className={` ${
-            open ? "w-72" : "w-20 "
+            open ? "w-60" : "w-20 "
           } bg-madhu  p-5  pt-8 relative duration-300`}
         >
           <img
